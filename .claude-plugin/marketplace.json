@@ -1,0 +1,118 @@
+{
+  "name": "thinkmariale",
+  "owner": {
+    "name": "Mariale Montenegro",
+    "url": "https://github.com/thinkmariale"
+  },
+  "description": "thinkmariale's agent skills: a curated, consolidated fork of mattpocock/skills and addyosmani/agent-skills, split into installable bundles.",
+  "plugins": [
+    {
+      "name": "core",
+      "source": "./",
+      "description": "Always-on essentials: grilling, TDD, bug diagnosis, three-axis code review, domain modeling, handoff, and the ask router.",
+      "category": "engineering",
+      "strict": false,
+      "skills": [
+        "./skills/ask",
+        "./skills/setup-skills",
+        "./skills/grilling",
+        "./skills/grill-me",
+        "./skills/grill-with-docs",
+        "./skills/domain-modeling",
+        "./skills/codebase-design",
+        "./skills/tdd",
+        "./skills/diagnosing-bugs",
+        "./skills/code-review",
+        "./skills/handoff",
+        "./skills/writing-for-agents"
+      ]
+    },
+    {
+      "name": "workflow",
+      "source": "./",
+      "description": "Idea-to-ship pipeline on GitHub Issues (or local markdown): spec, tickets, implement, triage, wayfinder, prototype, research.",
+      "category": "engineering",
+      "strict": false,
+      "skills": [
+        "./skills/to-spec",
+        "./skills/to-tickets",
+        "./skills/implement",
+        "./skills/triage",
+        "./skills/wayfinder",
+        "./skills/prototype",
+        "./skills/research",
+        "./skills/improve-codebase-architecture",
+        "./skills/resolving-merge-conflicts"
+      ]
+    },
+    {
+      "name": "frontend",
+      "source": "./",
+      "description": "Production UI: components and accessibility, real-browser testing via DevTools MCP, performance, and a Core Web Vitals audit.",
+      "category": "engineering",
+      "strict": false,
+      "skills": [
+        "./skills/frontend-ui-engineering",
+        "./skills/browser-testing-with-devtools",
+        "./skills/performance-optimization",
+        "./skills/webperf"
+      ]
+    },
+    {
+      "name": "backend",
+      "source": "./",
+      "description": "APIs and services: interface design, security hardening, observability, deprecation and migrations.",
+      "category": "engineering",
+      "strict": false,
+      "skills": [
+        "./skills/api-and-interface-design",
+        "./skills/security-and-hardening",
+        "./skills/observability-and-instrumentation",
+        "./skills/deprecation-and-migration"
+      ]
+    },
+    {
+      "name": "ship",
+      "source": "./",
+      "description": "Getting to production: git workflow and releases, CI/CD, launch checklist, and a parallel go/no-go review.",
+      "category": "engineering",
+      "strict": false,
+      "skills": [
+        "./skills/ci-cd-and-automation",
+        "./skills/shipping-and-launch",
+        "./skills/git-workflow-and-versioning",
+        "./skills/ship"
+      ]
+    },
+    {
+      "name": "discipline",
+      "source": "./",
+      "description": "Rigor on demand: doubt-driven, source-driven and constraint-driven development, context engineering, idea refinement, simplification.",
+      "category": "engineering",
+      "strict": false,
+      "skills": [
+        "./skills/doubt-driven-development",
+        "./skills/source-driven-development",
+        "./skills/constraint-driven-development",
+        "./skills/context-engineering",
+        "./skills/idea-refine",
+        "./skills/code-simplification"
+      ]
+    },
+    {
+      "name": "extras",
+      "source": "./",
+      "description": "Occasional tools: teach, questionnaires, wait-what, human-step wizards, git guardrails, pre-commit setup.",
+      "category": "engineering",
+      "strict": false,
+      "skills": [
+        "./skills/teach",
+        "./skills/to-questionnaire",
+        "./skills/wait-what",
+        "./skills/wizard",
+        "./skills/git-guardrails-claude-code",
+        "./skills/setup-pre-commit"
+      ]
+    }
+  ]
+}
